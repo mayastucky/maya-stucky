@@ -5,6 +5,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <div className="container">
+        <h2 id="projects">Projects</h2>
         <div className="row">
           {/* <h2 style={{color:"#D5896F", marginTop: "20px"}}>Portfolio</h2> */}
         </div>
