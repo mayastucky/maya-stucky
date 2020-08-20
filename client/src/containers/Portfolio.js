@@ -3,7 +3,7 @@ import PortfolioBlock from "../components/PorfolioBlock";
 
 const Portfolio = () => {
   return (
-    <div id="porfolio">
+    <div id="portfolio">
       <div className="container">
         <div className="row">
           {/* <h2 style={{color:"#D5896F", marginTop: "20px"}}>Portfolio</h2> */}
