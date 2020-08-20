@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Maya Stucky</h1>
+          <h1 class="display-4" style={{textAlign: "center"}}>Maya Stucky</h1>
           <p class="lead">
             Hi there! I'm Maya! I'm a recent graduate of Georgia Tech’s Full Stack Web
             Development Bootcamp. I enjoy detail-oriented front-end web
