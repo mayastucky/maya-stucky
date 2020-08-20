@@ -1,6 +1,8 @@
 import React, {useEffect} from "react";
 import axios from "axios";
 import "./App.css";
+import Header from "./components/Header"
+import Portfolio from "./containers/Portfolio"
 
 function App() {
   useEffect(() => {
@@ -14,7 +16,8 @@ function App() {
       });
   }, []);
   return <div className="App">
-    <h1>Hello world</h1>
+    <Header/>
+    <Portfolio/>
   </div>;
 }
 
