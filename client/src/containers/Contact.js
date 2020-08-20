@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <main>
+      <main id = "contact">
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
