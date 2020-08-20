@@ -1,8 +1,10 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-import Header from "./components/Header"
-import Portfolio from "./containers/Portfolio"
+import Home from "./pages/Home";
+import NoMatch from "./pages/NoMatch";
+import NavBar from "./components/NavBar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   useEffect(() => {
@@ -15,10 +17,17 @@ function App() {
         console.log(err);
       });
   }, []);
-  return <div className="App">
-    <Header/>
-    <Portfolio/>
-  </div>;
+  return (
+    <div className="App">
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route component={NoMatch} />
+        </Switch>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
