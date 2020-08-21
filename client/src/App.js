@@ -3,7 +3,6 @@ import axios from "axios";
 import "./App.css";
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
-import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -11,6 +10,7 @@ function App() {
     axios
       .get("/api/config")
       .then((response) => {
+        console.log("I see you snooping!")
         console.log(response.data);
       })
       .catch((err) => {
