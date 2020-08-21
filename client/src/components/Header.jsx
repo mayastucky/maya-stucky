@@ -2,7 +2,6 @@ import React from "react";
 import { Spring } from "react-spring/renderprops";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
-import { Redirect, Link } from "react-router-dom";
 import NavBar from "./NavBar";
 
 const Header = () => {
