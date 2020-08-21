@@ -3,29 +3,39 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <main id = "contact">
+      <main id="contact">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col">
               <div class="row">
-                <div class="col">
-                  <h2>Contact</h2>
-                  <h5 style={{textAlign: "center", color: "#3d405b"}}>
-                    {" "}
-                    (316) 708-6747
+                <div class="col" style={{ marginBottom: "100px" }}>
+                  <h2
+                    style={{
+                      textAlign: "center",
+                      marginTop: "100px",
+                      marginBottom: "20px",
+                    }}
+                  >
+                    Get in Touch
+                  </h2>
+
+                  <h5 style={{ textAlign: "center", color: "#3d405b" }}>
+                    <a class="fancyclick" href="tel:316-708-6747">
+                      (316) 708-6747
+                    </a>
                   </h5>
-                  <h5 style={{textAlign: "center", wordWrap:"break-word"}}>
+                  <h5 style={{ textAlign: "center", wordWrap: "break-word" }}>
                     {" "}
                     <a class="fancyclick" href="mailto:mayaatstucky@gmail.com">
                       mayaatstucky@gmail.com
                     </a>
                   </h5>
-                  <h5 style={{textAlign: "center"}}>
+                  <h5 style={{ textAlign: "center" }}>
                     <a class="fancyclick" href="https://github.com/mayastucky">
                       GitHub
                     </a>
                   </h5>
-                  <h5 style={{textAlign: "center"}}>
+                  <h5 style={{ textAlign: "center" }}>
                     <a
                       class="fancyclick"
                       href="https://www.linkedin.com/in/maya-stucky-4453b0181/"

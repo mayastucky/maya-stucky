@@ -1,14 +1,16 @@
 import React from "react";
-import Header from "../components/Header"
+import Header from "../components/Header";
 import Portfolio from "../containers/Portfolio";
-import Contact from "../containers/Contact";
+import Skills from "../components/Skills";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <div>
       <Header />
       <Portfolio />
-      <Contact />
+      <Skills />
+      <Footer />
     </div>
   );
 };

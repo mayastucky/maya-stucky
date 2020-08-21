@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="#heading">
           Maya Stucky
         </a>
         <button
@@ -23,6 +23,11 @@ const NavBar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#portfolio">
                 Portfolio
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#skills">
+                Skills
               </a>
             </li>
             <li className="nav-item">

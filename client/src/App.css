@@ -15,16 +15,37 @@ body {
   margin: 0px;
 }
 
-#porfolio {
-  background-color: pink;
+#heading {
+  text-align: center;
 }
 
-.nav-bar{
-  color: whitesmoke !important;
+i {
+  text-align: center;
+  display: inline-block;
 }
+
+#projects {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#portfolio {
+  padding: 0px;
+}
+
+.navbar-light .navbar-brand {
+  color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke;
+}
+
+/* .nav-bar{
+  color: whitesmoke !important;
+} */
 
 .bg-light {
-  /* background: transparent; */
   background-color: rgba(102, 39, 66, 0) !important;
 }
 
