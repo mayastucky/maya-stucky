@@ -1,4 +1,5 @@
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 
 const Footer = () => {
   const styles = {
@@ -9,15 +10,17 @@ const Footer = () => {
   return (
     <div id="contact">
       <div style={{ marginBottom: "50px" }}>
-        <h3
-          style={{
-            textAlign: "center",
-            paddingTop: "100px",
-            paddingBottom: "20px",
-          }}
-        >
-          Get in Touch!
-        </h3>
+        <Bounce>
+          <h3
+            style={{
+              textAlign: "center",
+              paddingTop: "100px",
+              paddingBottom: "20px",
+            }}
+          >
+            Get in Touch!
+          </h3>
+        </Bounce>
         <div class="text-center py-2">
           <a href="tel:316-708-6747" style={styles.icons}>
             <i class="fas fa-mobile fa-5x"></i>
