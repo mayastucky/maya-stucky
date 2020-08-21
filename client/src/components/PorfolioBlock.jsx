@@ -20,7 +20,7 @@ const PortfolioBlock = (props) => {
 
   return (
     <div className="col-sm">
-      <figure className="figure">
+      {/* <figure className="figure">
         <img
           src={props.src}
           className="figure-img img-fluid rounded"
@@ -35,7 +35,14 @@ const PortfolioBlock = (props) => {
           <a href={props.deployedLink} style={styles.links}> Site </a>
           <a href={props.githubLink} style={styles.links}> GitHub </a>
         </figcaption>
-      </figure>
+      </figure> */}
+      <h2>
+      {props.name}
+      </h2>
+      <p>{props.description}</p>
+      <a href={props.deployedLink} style={styles.links}> Site </a>
+      <br/>
+      <a href={props.githubLink} style={styles.links}> GitHub </a>
     </div>
   );
 };
