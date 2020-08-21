@@ -10,6 +10,26 @@ const Portfolio = () => {
           {/* <h2 style={{color:"#D5896F", marginTop: "20px"}}>Portfolio</h2> */}
         </div>
         <div className="row" style={{ marginTop: "30px" }}>
+          <PortfolioBlock
+            name="Healthy Competition"
+            githubLink="https://github.com/DanielleByrne/gt-project-3"
+            deployedLink="https://hidden-scrubland-71359.herokuapp.com/"
+            description="HealthyCompetition is an easy-to-navigate workout tracker that allows the user to simply mark whether or not a workout has been completed that day and compare the number of days they worked out to others on the application. We developed an application that builds a sense of community and accountability when it comes to working out. We cut the fuss out of other workout applications with our beautiful and intuitive interface."
+          ></PortfolioBlock>
+          <PortfolioBlock
+            name="Google Books Search"
+            githubLink="https://github.com/mayastucky/21-gt-google-books-search"
+            deployedLink="https://salty-woodland-84780.herokuapp.com/"
+            description="This application uses React, Mongoose, and the Google Books API to search through the Google Books database and save it to one's own."
+          ></PortfolioBlock>
+          <PortfolioBlock
+            name="Employee Directory"
+            githubLink="https://github.com/mayastucky/19-gt-employee-directory"
+            deployedLink="https://mayastucky.github.io/19-gt-employee-directory/"
+            description="This application uses React and Random User API to generate a table of employees that can be sorted by last name and filtered."
+          ></PortfolioBlock>
+        </div>
+        <div className="row" style={{ marginTop: "30px" }}>
           {/* Maestro */}
           <PortfolioBlock
             src="https://github.com/mayastucky/gt-project-2/raw/master/public/img/maestro-screenshot.png"
