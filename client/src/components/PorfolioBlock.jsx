@@ -8,14 +8,14 @@ const PortfolioBlock = (props) => {
     },
     captions: {
       color: "#650D1B",
-      marginBottom: "30px", 
-      textAlign: "center"
+      marginBottom: "30px",
+      textAlign: "center",
     },
 
     links: {
       // color: "#6D597A"
-      color: "#1B263B"
-    }
+      color: "#1B263B",
+    },
   };
 
   return (
@@ -36,13 +36,22 @@ const PortfolioBlock = (props) => {
           <a href={props.githubLink} style={styles.links}> GitHub </a>
         </figcaption>
       </figure> */}
-      <h2>
-      {props.name}
-      </h2>
+      <br></br>
+      <h2>{props.name}</h2>
       <p>{props.description}</p>
-      <a href={props.deployedLink} style={styles.links}> Site </a>
-      <br/>
-      <a href={props.githubLink} style={styles.links}> GitHub </a>
+      <a
+        href={props.deployedLink}
+        style={styles.links}
+        className="portfolioLink"
+      >
+        {" "}
+        Site{" "}
+      </a>
+      <br />
+      <a href={props.githubLink} style={styles.links} className="portfolioLink">
+        {" "}
+        GitHub{" "}
+      </a>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Portfolio = () => {
             name="Healthy Competition"
             githubLink="https://github.com/DanielleByrne/gt-project-3"
             deployedLink="https://hidden-scrubland-71359.herokuapp.com/"
-            description="HealthyCompetition is an easy-to-navigate workout tracker that allows the user to simply mark whether or not a workout has been completed that day and compare the number of days they worked out to others on the application. We developed an application that builds a sense of community and accountability when it comes to working out. We cut the fuss out of other workout applications with our beautiful and intuitive interface."
+            description="HealthyCompetition is an easy-to-navigate workout tracker that allows the user to simply mark whether or not a workout has been completed that day and compare the number of days they worked out to others on the application."
           ></PortfolioBlock>
           <PortfolioBlock
             name="Google Books Search"
@@ -37,7 +37,7 @@ const Portfolio = () => {
             name="Maestro"
             githubLink="https://github.com/mayastucky/gt-project-2"
             deployedLink="https://secure-shelf-55938.herokuapp.com/"
-            description="Maestro is designed to be a meeting platform between remote learners and educators. It allows learners to have the school experience remotely. It is a fully functioning CRUD application, in that an educator can create an account, login in to see their dashboard, update the information as well as delete."
+            description="Maestro is designed to be a meeting platform between remote learners and educators. It allows learners to have the school experience remotely. It is a fully functioning CRUD application."
           ></PortfolioBlock>
           {/* Eat The Burger */}
           <PortfolioBlock

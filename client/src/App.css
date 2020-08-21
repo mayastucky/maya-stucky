@@ -1,10 +1,12 @@
 .App {
   /* text-align: center; */
-  /* background-image: url("https://mobirise.com/bootstrap-template/assets/images/jumbotron.jpg"); */
+  background-image: url("https://mobirise.com/bootstrap-template/assets/images/jumbotron.jpg");
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Alata", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .jumbotron {
@@ -27,6 +29,10 @@ a:hover {
   color: pink;
 }
 
+a.porfolioLink:hover {
+  color: pink;
+}
+
 i {
   text-align: center;
   display: inline-block;
@@ -39,22 +45,32 @@ i {
 
 #portfolio {
   padding: 0px;
+  background-image: none;
+  background-color: white;
 }
 
 .navbar-light .navbar-brand {
   color: "#2C5530";
-  font-size: 20px
+  font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: "#2C5530";
-  font-size: 20px
+  font-size: 20px;
 }
 
 /* .nav-bar{
   color: whitesmoke !important;
 } */
 
+#skills {
+  background-image: none;
+  background-color: white;
+}
+
+#contact {
+  background-color: white;
+}
 .bg-light {
   background-color: rgba(102, 39, 66, 0) !important;
 }
