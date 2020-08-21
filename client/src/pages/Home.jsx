@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Header/>
       <Portfolio />
       <Skills />
       <Footer />

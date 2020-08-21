@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route component={NoMatch} />
