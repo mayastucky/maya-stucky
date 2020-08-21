@@ -7,7 +7,7 @@ const Footer = () => {
     },
   };
   return (
-    <div style={{ marginBottom: "50px" }}>
+    <div style={{ marginBottom: "50px" }} id ="contact">
       <h3
         style={{
           textAlign: "center",
