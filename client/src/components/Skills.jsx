@@ -1,4 +1,5 @@
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 
 const Skills = () => {
   const styles = {
@@ -12,7 +13,11 @@ const Skills = () => {
       <div className="container">
         <div class="row">
           <div class="col">
-            <h2 style={{ textAlign: "center", marginTop: "100px" }}>Skills</h2>
+            <Bounce>
+              <h2 style={{ textAlign: "center", marginTop: "100px" }}>
+                Skills
+              </h2>
+            </Bounce>
             <div class="row row-centered" style={styles.icons}>
               <div class="col">
                 <i class="fab fa-node" style={styles.icons}></i>

@@ -55,13 +55,13 @@ const Header = () => {
               visually stunning websites.
             </Fade>
           </p>
-          <Flip right>
+          {/* <Flip right>
             <a href="#portfolio">
               <button type="button" class="btn" style={styles.button}>
                 Learn More
               </button>
             </a>
-          </Flip>
+          </Flip> */}
         </div>
       </div>
     </div>

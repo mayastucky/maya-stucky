@@ -37,20 +37,20 @@ const PortfolioBlock = (props) => {
         </figcaption>
       </figure> */}
       <br></br>
-      <h2>{props.name}</h2>
-      <p>{props.description}</p>
       <a
         href={props.deployedLink}
         style={styles.links}
         className="portfolioLink"
       >
-        {" "}
-        Site{" "}
+        <h2>{props.name}</h2>
       </a>
+      {/* <h2>{props.name}</h2> */}
+      <p>{props.description}</p>
+
       <br />
       <a href={props.githubLink} style={styles.links} className="portfolioLink">
         {" "}
-        GitHub{" "}
+        Code{" "}
       </a>
     </div>
   );
