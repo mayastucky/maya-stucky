@@ -12,7 +12,7 @@ const Header = () => {
             config={{ friction: 250 }}
           >
             {(props) => (
-              <div>
+              <div style={{ marginTop: "200px" }}>
                 <h1 id="heading" class="display-4" style={props}>
                   Maya Stucky
                 </h1>

@@ -9,14 +9,22 @@ body {
 
 .jumbotron {
   background-image: url("https://mobirise.com/bootstrap-template/assets/images/jumbotron.jpg");
+  background-size: cover;
   /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(20).jpg"); */
-  min-height: 500px;
+  min-height: 800px;
   color: whitesmoke;
   margin: 0px;
 }
 
 #heading {
   text-align: center;
+}
+a {
+  color: black;
+}
+
+a:hover {
+  color: pink;
 }
 
 i {
@@ -34,11 +42,13 @@ i {
 }
 
 .navbar-light .navbar-brand {
-  color: whitesmoke;
+  color: "#2C5530";
+  font-size: 20px
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: whitesmoke;
+  color: "#2C5530";
+  font-size: 20px
 }
 
 /* .nav-bar{
@@ -81,5 +91,10 @@ i {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    height: 300px;
   }
 }
