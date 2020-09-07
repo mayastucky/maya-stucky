@@ -1,5 +1,6 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
+import Resume from "../../src/Resume.pdf";
 
 const Footer = () => {
   const styles = {
@@ -11,6 +12,17 @@ const Footer = () => {
     <div id="contact">
       <div style={{ marginBottom: "50px" }}>
         <Bounce>
+          <h3
+            style={{
+              textAlign: "center",
+              paddingTop: "100px",
+              paddingBottom: "20px",
+            }}
+          >
+            <a href={Resume} target="_blank" rel="noopener noreferrer">
+              View Resume
+            </a>
+          </h3>
           <h3
             style={{
               textAlign: "center",
