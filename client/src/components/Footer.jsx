@@ -9,29 +9,33 @@ const Footer = () => {
     },
   };
   return (
-    <div id="contact">
+    <div id = "footerContent">
       <div style={{ marginBottom: "50px" }}>
         <Bounce>
-          <h3
-            style={{
-              textAlign: "center",
-              paddingTop: "100px",
-              paddingBottom: "20px",
-            }}
-          >
-            <a href={Resume} target="_blank" rel="noopener noreferrer">
-              View Resume
-            </a>
-          </h3>
-          <h3
-            style={{
-              textAlign: "center",
-              paddingTop: "100px",
-              paddingBottom: "20px",
-            }}
-          >
-            Get in Touch!
-          </h3>
+          <div id="resume">
+            <h3
+              style={{
+                textAlign: "center",
+                paddingTop: "100px",
+                paddingBottom: "20px",
+              }}
+            >
+              <a href={Resume} target="_blank" rel="noopener noreferrer">
+                View Resume
+              </a>
+            </h3>
+          </div>
+          <div id="contact">
+            <h3
+              style={{
+                textAlign: "center",
+                paddingTop: "100px",
+                paddingBottom: "20px",
+              }}
+            >
+              Get in Touch!
+            </h3>
+          </div>
         </Bounce>
         <div className="text-center py-2">
           <a href="tel:316-708-6747" style={styles.icons}>

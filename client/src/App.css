@@ -71,6 +71,15 @@ i {
 #contact {
   background-color: white;
 }
+
+#footerContent {
+  background-image: none;
+  background-color: white;
+}
+#resume {
+  background-image: none;
+  background-color: white;
+}
 .bg-light {
   background-color: rgba(102, 39, 66, 0) !important;
 }
