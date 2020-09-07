@@ -3,6 +3,8 @@ import { Spring } from "react-spring/renderprops";
 import Fade from "react-reveal/Fade";
 import NavBar from "./NavBar";
 
+
+
 const Header = () => {
   //https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -18,6 +20,7 @@ const Header = () => {
   return (
     <div id="heading">
       <NavBar />
+
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <Spring
