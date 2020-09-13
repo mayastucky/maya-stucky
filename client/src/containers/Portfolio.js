@@ -19,6 +19,7 @@ const Portfolio = () => {
             githubLink="https://github.com/DanielleByrne/gt-project-3"
             deployedLink="https://hidden-scrubland-71359.herokuapp.com/"
             description="HealthyCompetition is an easy-to-navigate workout tracker that allows the user to simply mark whether or not a workout has been completed that day and compare the number of days they worked out to others on the application."
+            sample = "Username: guest@gmail.com Password: password"
             tools = "MongoDB, Express, React, Node, Heroku, Git, GitHub, Ant Design, React Spring, Firebase Authentication."
           ></PortfolioBlock>
           <PortfolioBlock
@@ -49,6 +50,7 @@ const Portfolio = () => {
             deployedLink="https://secure-shelf-55938.herokuapp.com/"
             description="Maestro is designed to be a meeting platform between remote learners and educators. It allows learners to have the school experience remotely. It is a fully functioning CRUD application."
             tools="Passport, Bcrypt, Node, Express, UI Kit, Sequelize, Heroku, Handlebars"
+            sample = "Username: guest@gmail.com Password: password"
           ></PortfolioBlock>
           {/* Eat The Burger */}
           <PortfolioBlock
@@ -91,7 +93,7 @@ const Portfolio = () => {
             githubLink="https://github.com/mayastucky/gt-project-1"
             deployedLink="https://mayastucky.github.io/gt-project-1/"
             description="As we go through our time in quarantine, we have run out of ideas for what to do to pass the time. This application is designed to aid in the search of something new to do and will give you YouTube videos on how to get started. "
-            tools = "Random API, YouTube API, AJAX "
+            tools = "HTML, CSS, APIs (BoredAPI and YouTube Api), Bootstrap, Ajax."
           ></PortfolioBlock>
           {/* Password Generator */}
           <PortfolioBlock

@@ -47,14 +47,17 @@ const PortfolioBlock = (props) => {
       {/* <h2>{props.name}</h2> */}
       <p>{props.description}</p>
       <br></br>
-      <p><strong>Tools: </strong>{props.tools}</p>
+      <p>{props.sample}</p>
+      <p>
+        <strong>Tools: </strong>
+        {props.tools}
+      </p>
 
       <br />
       <a href={props.githubLink} style={styles.links} className="portfolioLink">
         {" "}
         Code{" "}
       </a>
-  
     </div>
   );
 };
