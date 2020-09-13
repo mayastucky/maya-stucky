@@ -15,11 +15,13 @@ const Portfolio = () => {
         <div className="row" style={{ marginTop: "30px" }}>
           <PortfolioBlock
             name="Healthy Competition"
+            src="https://github.com/DanielleByrne/gt-project-3/raw/master/client/public/assets/HealthyCompetition.gif"
             githubLink="https://github.com/DanielleByrne/gt-project-3"
             deployedLink="https://hidden-scrubland-71359.herokuapp.com/"
             description="HealthyCompetition is an easy-to-navigate workout tracker that allows the user to simply mark whether or not a workout has been completed that day and compare the number of days they worked out to others on the application."
           ></PortfolioBlock>
           <PortfolioBlock
+            src="https://github.com/mayastucky/21-gt-google-books-search/raw/master/gif.gif"
             name="Google Books Search"
             githubLink="https://github.com/mayastucky/21-gt-google-books-search"
             deployedLink="https://salty-woodland-84780.herokuapp.com/"
@@ -27,6 +29,7 @@ const Portfolio = () => {
           ></PortfolioBlock>
           <PortfolioBlock
             name="Employee Directory"
+            src = "https://github.com/mayastucky/19-gt-employee-directory/raw/master/app.png"
             githubLink="https://github.com/mayastucky/19-gt-employee-directory"
             deployedLink="https://mayastucky.github.io/19-gt-employee-directory/"
             description="This application uses React and Random User API to generate a table of employees that can be sorted by last name and filtered."
