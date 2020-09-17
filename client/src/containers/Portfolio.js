@@ -50,7 +50,7 @@ const Portfolio = () => {
             deployedLink="https://secure-shelf-55938.herokuapp.com/"
             description="Maestro is designed to be a meeting platform between remote learners and educators. It allows learners to have the school experience remotely. It is a fully functioning CRUD application."
             tools="Passport, Bcrypt, Node, Express, UI Kit, Sequelize, Heroku, Handlebars"
-            sample = "Username: guest@gmail.com Password: password"
+            // sample = "Username: guest@gmail.com Password: password"
           ></PortfolioBlock>
           {/* Eat The Burger */}
           <PortfolioBlock
