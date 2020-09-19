@@ -12,8 +12,6 @@ body {
   scroll-behavior: smooth;
 }
 
-
-
 .jumbotron {
   /* background-image: url("https://mobirise.com/bootstrap-template/assets/images/jumbotron.jpg"); */
   /* background-image: url("https://images.unsplash.com/photo-1478109562701-8d261b58b09d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"); */
@@ -67,8 +65,6 @@ i {
   font-size: 20px;
 }
 
-
-
 #skills {
   background-image: none;
   background-color: white;
@@ -87,7 +83,11 @@ i {
   background-color: white;
 }
 .bg-light {
-  background-color:mistyrose !important;
+  background-color: mistyrose !important;
+}
+
+.lead {
+  font-size: 30px;
 }
 
 .App-logo {
