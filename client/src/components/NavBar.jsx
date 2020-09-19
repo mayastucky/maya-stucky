@@ -3,7 +3,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-transparent" id="navbarcomplete">
         <a className="navbar-brand" href="#heading">
           Maya Stucky
         </a>
