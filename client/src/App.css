@@ -8,8 +8,19 @@
 }
 
 body {
-  font-family: "Alata", sans-serif;
+  /* font-family: "Alata", sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
+}
+
+.display-4{
+  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+.lead {
+  font-family: 'Playfair Display', serif !important;
 }
 
 .jumbotron {
