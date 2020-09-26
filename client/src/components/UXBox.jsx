@@ -17,7 +17,7 @@ const UXBox = (props) => {
 
     description: {
       marginBottom: "20px",
-      textAlign: "center",
+      textAlign: "left",
       justifyContent: "center",
       maxWidth: "400px",
     },
@@ -36,7 +36,7 @@ const UXBox = (props) => {
         </figure>
         <br></br>
         <div style={styles.description}>
-          <h2>{props.name}</h2>
+          <h2 style={{ textAlign: "left" }}>{props.name}</h2>
 
           <p>{props.description}</p>
           <br></br>
