@@ -7,7 +7,7 @@ const UXBox = (props) => {
       height: "300px",
       textAlign: "center",
       justifyContent: "center",
-      margin: "auto",
+      marginTop: "20px",
     },
 
     links: {
@@ -16,16 +16,16 @@ const UXBox = (props) => {
     },
 
     description: {
+      marginBottom: "20px",
       textAlign: "center",
       justifyContent: "center",
-      margin: "auto",
-        // maxWidth: "400px",
+      maxWidth: "400px",
     },
   };
 
   return (
     <div className="row">
-      <div className="col">
+      <div className="col" style={{ textAlign: "center" }}>
         <figure className="figure">
           <img
             src={props.src}
