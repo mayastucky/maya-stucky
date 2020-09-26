@@ -16,7 +16,7 @@ const Portfolio = () => {
           </h2>
         </Bounce>
         <div className="row" style={{ justifyContent: "center" }}>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", padding: "20px" }}>
             <UXBox
               name="Maynooth Furniture Website and Mobile Application"
               src={Maynooth}
