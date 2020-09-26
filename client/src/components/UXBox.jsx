@@ -35,7 +35,7 @@ const UXBox = (props) => {
           className="portfolioLink"
           style={{ textAlign: "center" }}
         >
-          <h5>Read More</h5>
+          {/* <h5>Read More</h5> */}
         </a>
       </div>
     </div>

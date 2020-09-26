@@ -13,7 +13,7 @@ const CaseStudies = () => {
           <h2 id="user-experience-title">User Experience Projects</h2>
         </Bounce>
         <div className="row">
-          <UXBox name="Maynooth Furniture" src={Maynooth} description= "Maynooth Furniture is my first User Experience project. Given a persona and a brief, I created a web application and a mobile application using my new Adobe XD skills. "></UXBox>
+          <UXBox name="Maynooth Furniture" src={Maynooth} description= "Maynooth Furniture is my first User Experience project. Given a persona and a brief, I created a web application and a mobile application using my new Adobe XD skills. Case study is in the works!"></UXBox>
         </div>
       </div>
     </div>
