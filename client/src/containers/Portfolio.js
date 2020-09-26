@@ -11,7 +11,7 @@ const Portfolio = () => {
         <br></br>
         <br></br>
         <Bounce>
-          <h2 id="ux" id="projects">
+          <h2 id="ux" style={{ textAlign: "center" }}>
             UX Design Projects
           </h2>
         </Bounce>
