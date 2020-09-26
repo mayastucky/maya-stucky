@@ -3,7 +3,10 @@ import React from "react";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-transparent" id="navbarcomplete">
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light navbar-transparent"
+        id="navbarcomplete" style={{justifyContent:'center', textAlign:"center"}}
+      >
         <a className="navbar-brand" href="#heading">
           Maya Stucky
         </a>
@@ -21,8 +24,13 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
+              <a className="nav-link" href="#case-studies">
+                UX Design
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#portfolio">
-                Portfolio
+                Web Development
               </a>
             </li>
             <li className="nav-item">

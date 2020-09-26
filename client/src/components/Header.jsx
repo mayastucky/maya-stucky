@@ -16,10 +16,9 @@ const Header = () => {
   });
 
   return (
-    <div id="heading">
-      <NavBar />
-
-      <div className="jumbotron jumbotron-fluid">
+    <div className="jumbotron jumbotron-fluid">
+      <NavBar style={{ textAlign: "center" }} />
+      <div id="heading">
         <div className="container">
           <Spring
             from={{ opacity: 0 }}
@@ -35,9 +34,7 @@ const Header = () => {
             )}
           </Spring>{" "}
           <p className="lead">
-            <Fade right>
-              Front-end Developer and UX Designer.
-            </Fade>
+            <Fade right>Front-end Developer and UX Designer.</Fade>
           </p>
           {/* <Flip right>
             <a href="#portfolio">

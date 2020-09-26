@@ -25,7 +25,6 @@ const PortfolioBlock = (props) => {
           src={props.src}
           className="figure-img img-fluid rounded"
           alt={props.alt}
-          style={styles.imageSize}
         />
         {/* <figcaption
           className="figure-caption"
@@ -58,6 +57,7 @@ const PortfolioBlock = (props) => {
         {" "}
         Code{" "}
       </a>
+      <br></br>
     </div>
   );
 };
