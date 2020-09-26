@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-light bg-light navbar-transparent"
+        className="navbar navbar-expand-lg navbar-dark bg-dark navbar-transparent"
         id="navbarcomplete" style={{justifyContent:'center', textAlign:"center"}}
       >
         <a className="navbar-brand" href="#heading">
