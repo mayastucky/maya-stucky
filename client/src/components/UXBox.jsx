@@ -24,9 +24,17 @@ const UXBox = (props) => {
               }}
             />
           </figure>
+          <h5 style={{ width: "800px", textAlign: "center" }}>
+            {props.description}
+          </h5>
         </div>
-        <h4>{props.description}</h4>
-        <a href={props.deployedLink} className="portfolioLink">
+
+        <br></br>
+        <a
+          href={props.deployedLink}
+          className="portfolioLink"
+          style={{ textAlign: "center" }}
+        >
           <h5>Read More</h5>
         </a>
       </div>

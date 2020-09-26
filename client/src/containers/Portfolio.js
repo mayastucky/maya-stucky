@@ -6,6 +6,8 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <div className="container">
+        <br></br>
+        <br></br>
         <Bounce>
           <h2 id="projects"> Web Development Projects</h2>
         </Bounce>

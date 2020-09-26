@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import Portfolio from "../containers/Portfolio";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
-import UXBox from "../components/UXBox";
 import CaseStudies from "../components/CaseStudies"
 
 
