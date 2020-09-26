@@ -124,6 +124,9 @@ a.navbar-brand:hover {
   background: none !important;
 }
 
+figure img {
+  vertical-align: top;
+}
 .lead {
   font-size: 30px;
 }
@@ -165,9 +168,8 @@ a.navbar-brand:hover {
 @media only screen and (max-width: 600px) {
   .jumbotron {
     height: 300px;
-
   }
-  .ux-pics{
+  .ux-pics {
     width: fit-content;
   }
 }

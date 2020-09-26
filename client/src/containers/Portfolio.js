@@ -1,7 +1,8 @@
 import React from "react";
 import PortfolioBlock from "../components/PorfolioBlock";
 import Bounce from "react-reveal/Bounce";
-import Maynooth from "../../src/maynooth.png"
+import Maynooth from "../../src/maynooth.png";
+import UXBox from "../components/UXBox";
 
 const Portfolio = () => {
   return (
@@ -12,12 +13,14 @@ const Portfolio = () => {
         <Bounce>
           <h2 id="projects">UX Design Projects</h2>
         </Bounce>
-        <div className="row" style={{ marginTop: "30px" }}>
-          <PortfolioBlock
-          name="Maynooth"
-          src={Maynooth}
-          description= "Maynooth Furniture is my first User Experience project. Given a persona and a brief, I created a web application and a mobile application using my new Adobe XD skills. Case study is in the works!"
-          ></PortfolioBlock>
+        <div className="row" style={{ justifyContent: "center" }}>
+          <div style={{ display: "flex" }}>
+            <UXBox
+              name="Maynooth Furniture Website and Mobile Application"
+              src={Maynooth}
+              description="Maynooth Furniture is my first User Experience project. Given a persona and a brief, I created a web application and a mobile application using my new Adobe XD skills. Case study is in the works!"
+            ></UXBox>
+          </div>
         </div>
         <Bounce>
           <h2 id="projects"> Web Development Projects</h2>
