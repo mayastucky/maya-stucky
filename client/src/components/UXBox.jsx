@@ -13,7 +13,7 @@ const UXBox = (props) => {
           }}
         >
           <figure className="figure">
-            <img
+            <img className="ux-pics"
               src={props.src}
               className="figure-img img-fluid rounded"
               alt={props.name}
@@ -24,7 +24,7 @@ const UXBox = (props) => {
               }}
             />
           </figure>
-          <h5 style={{ width: "800px", textAlign: "center" }}>
+          <h5 className="ux-desc" style={{ width: "800px", textAlign: "center" }}>
             {props.description}
           </h5>
         </div>
