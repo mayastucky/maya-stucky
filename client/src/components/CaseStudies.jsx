@@ -1,15 +1,15 @@
 import React from "react";
 import UXBox from "../components/UXBox";
-import Bounce from "react-reveal/Bounce";
+// import Bounce from "react-reveal/Bounce";
 import Maynooth from "../../src/maynooth.png";
 
 const CaseStudies = () => {
   return (
     <div id="case-studies">
       <div className="container">
-        <Bounce>
+        {/* <Bounce> */}
           <h2 id="user-experience-title">User Experience Projects</h2>
-        </Bounce>
+        {/* </Bounce> */}
         <div className="row">
           <UXBox
             name="Maynooth Furniture"

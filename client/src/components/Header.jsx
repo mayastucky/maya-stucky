@@ -28,13 +28,13 @@ const Header = () => {
             {(props) => (
               <div style={{ marginTop: "200px" }}>
                 <h1 id="heading" className="display-4" style={props}>
-                  Maya Stucky
+                  hey, there! i'm maya.
                 </h1>
               </div>
             )}
           </Spring>{" "}
           <p className="lead">
-            <Fade right>Front-end Developer and UX Designer.</Fade>
+            <Fade right>i'm a philly based web developer and ux designer.</Fade>
           </p>
           {/* <Flip right>
             <a href="#portfolio">

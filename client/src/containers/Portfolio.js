@@ -10,11 +10,11 @@ const Portfolio = () => {
       <div className="container">
         <br></br>
         <br></br>
-        <Bounce>
+        {/* <Bounce> */}
           <h2 id="ux" style={{ textAlign: "center" }}>
-            UX Design Projects
+            ux design projects
           </h2>
-        </Bounce>
+        {/* </Bounce> */}
         <div className="row" style={{ justifyContent: "center" }}>
           <div style={{ display: "flex", padding: "20px" }}>
             <UXBox
@@ -24,9 +24,9 @@ const Portfolio = () => {
             ></UXBox>
           </div>
         </div>
-        <Bounce>
-          <h2 id="projects"> Web Development Projects</h2>
-        </Bounce>
+        {/* <Bounce> */}
+          <h2 id="projects"> web dev projects</h2>
+        {/* </Bounce> */}
         <div className="row">
           {/* <h2 style={{color:"#D5896F", marginTop: "20px"}}>Portfolio</h2> */}
         </div>

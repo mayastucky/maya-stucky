@@ -8,7 +8,7 @@ const NavBar = () => {
         id="navbarcomplete" style={{justifyContent:'center', textAlign:"center"}}
       >
         <a className="navbar-brand" href="#heading">
-          Maya Stucky
+         maya stucky
         </a>
         <button
           className="navbar-toggler"
@@ -25,27 +25,27 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link" href="#ux">
-                UX Design
+                ux design
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects">
-                Web Development
+                web development
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#skills">
-                Skills
+                skills
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#resume">
-                Resume
+                resume
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Contact
+                contact
               </a>
             </li>
           </ul>

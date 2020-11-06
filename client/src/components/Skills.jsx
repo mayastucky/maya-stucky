@@ -12,15 +12,35 @@ const Skills = () => {
   return (
     <div id="skills">
       <div className="container">
+        <h2
+          style={{
+            textAlign: "center",
+            marginTop: "100px",
+            marginBottom: "10px",
+          }}
+        >
+          skills
+        </h2>
+
         <div className="row">
           <div className="col">
-            <Bounce>
-              <h2 style={{ textAlign: "center", marginTop: "100px" }}>
-                Skills
-              </h2>
-            </Bounce>
+            {/* <Bounce> */}
+            <ul>
+              <li>Sketch</li>
+              <li>AdobeXD</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Node</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>React</li>
+              <li>jQuery</li>
+              <li>APIs</li>
+              <li>Node</li>
+            </ul>
+            {/* </Bounce> */}
             {/* First row of icon */}
-            <div className="row row-centered" style={styles.icons}>
+            {/* <div className="row row-centered" style={styles.icons}>
               <div className="col center-align">
                 <i className="fab fa-node" style={styles.icons}></i>
                 <i className="fab fa-html5" style={styles.icons}></i>
@@ -31,8 +51,8 @@ const Skills = () => {
                 ></i>
                 <i className="devicon-mysql-plain" style={styles.icons}></i>
               </div>
-            </div>
-            <div className="row row-centered" style={styles.icons}>
+            </div> */}
+            {/* <div className="row row-centered" style={styles.icons}>
               <div className="col center-align">
                 <i
                   className="devicon-mongodb-plain-wordmark"
@@ -69,8 +89,20 @@ const Skills = () => {
                   className="devicon-visualstudio-plain-wordmark"
                   style={styles.icons}
                 ></i>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
+          </div>
+          <div className="col">
+            <ul>
+              <li>Express</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Heroku</li>
+              <li>Bootstrap</li>
+              <li>Handlebars</li>
+              <li>Trello</li>
+              <li>Visual Studio Code</li>
+            </ul>
           </div>
         </div>
       </div>
